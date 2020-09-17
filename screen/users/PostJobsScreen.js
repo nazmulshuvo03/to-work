@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 const PostJobsScreen = () => {
     return (
-        <View style={StyleSheet.container}>
+        <View style={styles.container}>
             <Text>PostJobsScreen</Text>
         </View>
     );

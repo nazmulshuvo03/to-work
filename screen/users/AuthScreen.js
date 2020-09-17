@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from "react-native";
 
 const AuthScreen = () => {
     return (
-        <View style={StyleSheet.container}>
-            <Text>AuthScreen</Text>
+        <View style={styles.container}>
+            <Text>Tap to login with Facebook</Text>
         </View>
     );
 };

@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const EditModeScreen = () => {
+const WelcomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>EditModeScreen</Text>
+            <Text>WelcomeScreen authorized users</Text>
         </View>
     );
 };
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default EditModeScreen;
+export default WelcomeScreen;
