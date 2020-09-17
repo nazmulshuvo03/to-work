@@ -6,7 +6,7 @@ import AuthScreen from "../screen/users/AuthScreen";
 
 const MainNavigator = createSwitchNavigator({
     StartupScreen: StartupScreen,
-    WelcomeScreen: WelcomeScreen,
+    Jobs: WelcomeScreen,
     Auth: AuthScreen,
 });
 
