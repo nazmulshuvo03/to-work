@@ -19,6 +19,7 @@ const StartupScreen = (props) => {
     const tryLogin = async () => {
         try {
             await firebase.auth().onAuthStateChanged((user) => {
+                // console.log("user info--------------------", user);
                 if (user != null) {
                     console.log("user is logged in");
                     props.navigation.navigate("Jobs");
@@ -48,8 +49,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignContent: "center",
-        backgroundColor: "#fff",
-        color: "#000",
     },
 });
 

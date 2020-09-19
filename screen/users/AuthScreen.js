@@ -26,8 +26,8 @@ const AuthScreen = (props) => {
                 .catch((error) => {
                     console.log("error", error);
                 });
+            props.navigation.navigate("Jobs");
         }
-        props.navigation.navigate("Jobs");
     };
 
     return (

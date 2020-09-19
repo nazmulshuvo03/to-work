@@ -5,11 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 import JobsNavigator from "./Navigation/JobsNavigator";
 
 export default function App() {
-    return (
-        <View style={styles.container}>
-            <JobsNavigator />
-        </View>
-    );
+    return <JobsNavigator />;
 }
 
 const styles = StyleSheet.create({
